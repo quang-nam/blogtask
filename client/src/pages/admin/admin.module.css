@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    gap: 100px;
+}
+.posts{
+    flex: 1;
+}
+
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.img{
+    object-fit: cover;
+}
+.post .delete{
+    padding: 10px;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    color: whitesmoke;
+    align-self: center;
+    border-radius: 8px
+}
+.postLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}

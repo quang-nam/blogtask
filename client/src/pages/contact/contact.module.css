@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  .imgContainer {
+    flex: 1;
+    position: relative;
+  }
+  
+  .img {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .formContainer {
+    flex: 1;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form input,
+  .form textarea {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--softBg);
+    color: var(--textColor);
+    font-family: 'Sora', sans-serif;
+  }
+  
+  .form button {
+    padding: 20px;
+    background-color: var(--softBg);
+    color: var(--textColor);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }

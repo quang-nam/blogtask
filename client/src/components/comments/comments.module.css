@@ -1,0 +1,69 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  .title {
+    color: var(--softTextColor);
+  }
+  .emotion{
+    align-self: center
+  }
+  .emotionCotainer{
+    position: relative;
+  }
+  .emotionCotainer .blockEmoji {
+    position: absolute;
+    bottom: 10px;
+  }
+  .picker{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+  }
+
+
+  .comments{
+    margin-top: 50px;
+  }
+  
+  .comment{
+    margin-bottom: 50px;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--softTextColor);
+  }
+  
+  .username {
+    font-weight: 500;
+  }
+  
+  .date{
+    font-size: 14px;
+  }
+  
+  .desc{
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .epr_mw4zr1 {
+    /* position: relative; */
+    top: 0px;
+}

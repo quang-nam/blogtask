@@ -1,0 +1,31 @@
+{
+    "labelname": {
+        "username": "Enter your username",
+        "email": "Enter your email",
+        "password": "Enter your password",
+        "confirmPassword": "Enter your password confirmation",
+        "title": "Enter your title",
+        "description": "Enter your description",
+        "image": "Enter your image"
+    },
+    "placeholders": {
+        "username": "Enter your username",
+        "email": "Enter your email",
+        "password": "Enter your password",
+        "confirmPassword": "Enter your password confirmation",
+        "title": "Enter your title",
+        "description": "Enter your description",
+        "image": "Enter your image"
+    },
+    "errors": {
+        "username": "Must be at least 4 characters",
+        "email": "Must be a valid email",
+        "min": "Must be at least {{min}} characters",
+        "required": "Sorry this field is required",
+        "password": "Password must be 6 or 15 characters, special characters like uppercase and @",
+        "confirmPassword": "Password must match"
+    },
+    "buttons": {
+        "submit": "Submit"
+    }
+}
